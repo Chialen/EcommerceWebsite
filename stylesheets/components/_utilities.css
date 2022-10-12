@@ -1,0 +1,29 @@
+.object-fit-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.height-s5 {
+  height: 360px;
+}
+
+.height-s6 {
+  height: 482px;
+}
+
+.txt {
+  background-color: #851E1E;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .txt-block {
+    margin-top: -300px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .height-s6 {
+    height: 360px;
+    width: 401px;
+  }
+}
