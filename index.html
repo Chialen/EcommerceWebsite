@@ -13,6 +13,9 @@
     <!-- Box Icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
     </head>
+    <!-- AOS連結 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>   
 
 <!-- Header-->
 <header class="header-product">
@@ -63,27 +66,27 @@
   <section class="container-fluid mt-6 ">
     <div class="row justify-content-center">
       <div class="col-12 col-md-4 ">
-        <img class="square-1 w-50 object-fit-cover" src="images/img-01.jpg ">
+        <img class="square-1 w-50 object-fit-cover" src="images/img-01.jpg " data-aos="fade-up">
       </div>
     </div>
 <div class="row justify-content-center mt-4">
   <div class="col-12 col-md-5">
-    <img class="rectangle-1 w-50 object-fit-cover" src="images/img-02.jpg " style="float: right;">
+    <img class="rectangle-1 w-50 object-fit-cover" src="images/img-02.jpg " style="float: right;" data-aos="fade-up">
   </div>
 </div>
 <div class="row justify-content-center mt-4">
   <div class="col-12 col-md-4 ">
-    <img class="square-2 w-50 object-fit-cover" src="images/img-03.jpg"style="float: right;">
+    <img class="square-2 w-50 object-fit-cover" src="images/img-03.jpg"style="float: right;" data-aos="fade-up">
   </div>
 </div>
 <div class="row justify-content-center mt-4">
   <div class="col-12 col-md-4">
-    <img class="square-3 w-50 object-fit-cover" src="images/img-04.jpg"style="float:left;">
+    <img class="square-3 w-50 object-fit-cover" src="images/img-04.jpg"style="float:left;" data-aos="fade-up">
   </div>
 </div>
 <div class="row mt-4">
   <div class="col-12 col-md-4 ">
-    <img class="square-4 w-50 object-fit-cover" src="images/img-05.jpg">
+    <img class="square-4 w-50 object-fit-cover" src="images/img-05.jpg" data-aos="fade-up">
   </div>
 </div>
 </section>
@@ -131,5 +134,10 @@
 </div>
 </footer>
 <a href="#" class="to-top m-2 text-center">Back to top</a>
+<script>
+  AOS.init({
+      duration: 2500,
+  });
+</script>
   </body>
 </html>
